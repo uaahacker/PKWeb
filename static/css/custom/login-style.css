@@ -1,0 +1,44 @@
+.full-height {
+    height: 100vh;
+}
+.pktxt{
+    color: #00401A !important;
+}
+
+/* Styles for the left section */
+.left-section {
+    background-color: #00401A;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+/* Centers the content inside the left section */
+.left-section .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Fixed width for the login area to avoid stretching on message display */
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Ensures alert messages don't stretch the form */
+.alert {
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+}
+
+/* Adjusts input fields to always stay within the form's width */
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+}
